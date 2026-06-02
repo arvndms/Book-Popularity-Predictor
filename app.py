@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 
 # genai
-client = genai.Client(api_key="AIzaSyCpzr_vdsbyq6sBZ7SJ8zvbclFnfSy7VOE")
+client = genai.Client(api_key="API Key")
 
 # load artifacts
 rf = joblib.load("models/rf_model.pkl")
